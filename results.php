@@ -24,5 +24,5 @@ else {
         $userMin++;
     }
 
-    echo $list;
+    echo "Your list is as follows:<br>" . $list;
 }
