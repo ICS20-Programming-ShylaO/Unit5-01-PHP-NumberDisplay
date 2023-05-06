@@ -36,7 +36,7 @@
         </div> 
       </header>
       <main class="mdl-layout__content">
-    <!-- php echo to print the html to the page -->
+        <!-- php echo to print the html to the page -->
     <?php
       echo "<h1>Number List Generator</h1>";
       echo "<h3>This program gives a list of integers ordered from least to greatest, given the minimum and maximum integers for the list.</h3>";
@@ -59,5 +59,6 @@
       <br>
     <iframe id="results" name="results"></iframe>
     </center>
+      </main>
   </body>
 </html>
