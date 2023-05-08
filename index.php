@@ -52,7 +52,10 @@
       <label for="lblMax">Maximum Number:</label>
       <input type="number" id="max" step="1" placeholder="Eg. 7" name="max">
       <br><br>
-      <input type="submit" value="Submit">
+      <button
+          class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">
+          Submit
+          </button>
     </form>
       
     <!-- iframe to display discounts based on age to user and day -->
