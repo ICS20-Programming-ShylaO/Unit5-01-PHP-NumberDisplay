@@ -5,7 +5,7 @@ $userMax = $_POST['max'];
 $list = "";
 
 // response for when user does not enter a valid min and/or a max
-if ((is_nan($userMin)) || (is_nan($userMax))) {
+if ((empty($userMin)) || (empty($userMax))) {
     echo "Please enter a minimum and/or a maximum.";
 }
 
